@@ -1,6 +1,8 @@
 # MVC Spring - Testing
 Proyecto piloto para testear endpoints
 
+[![Build Status](https://travis-ci.com/vicboma1/Spring-test-api-rest.svg?branch=main)](https://travis-ci.com/vicboma1/Spring-test-api-rest)
+
 ## Tech
 *   SpringBootApplication
 *   MVC
