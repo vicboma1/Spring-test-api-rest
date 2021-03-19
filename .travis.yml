@@ -1,0 +1,18 @@
+language: java
+sudo: true
+cache:
+  directories:
+       - $HOME/.m2
+
+# use operating systems.
+os:
+  - linux
+dist: trusty
+
+jdk:
+  - oraclejdk9
+
+script:
+  - jdk_switcher use oraclejdk9
+  - mvn -B clean install
+  - mvn test -f ./pom.xml
